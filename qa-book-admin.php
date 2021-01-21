@@ -47,7 +47,7 @@
 			case 'book_plugin_refresh_hours':
 				return 24;
 			case 'book_plugin_loc':
-				return dirname(__FILE__).'/book.html';
+				return '/var/www/html/books/book.html';
 			case 'book_plugin_loc_pdf':
 				return dirname(__FILE__).'/book.pdf';
 			case 'book_plugin_request':
