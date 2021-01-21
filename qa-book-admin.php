@@ -57,7 +57,7 @@
 			case 'book_plugin_show_a':
 				return '1';
 			case 'book_plugin_intro':
-				return 'This book was created programatically by [site-title] on [date].';
+				return 'This book is composed of [restrict_questions] at [site-title], [sort_questions][sort_categories].<br><br>Questions without selected answers are not included herein.<br><br>The book was created programatically by [site-title] on [date].';
 			case 'book_plugin_ack':
 				return 'Thanks to all the contributors of [site-title].';
 			case 'book_plugin_css':
